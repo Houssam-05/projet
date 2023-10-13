@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Rancho-Regular';
+    src:url(../polices/Rancho-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src:url(../polices/OpenSans-Regular.ttf) format('truetype');
+}
+
+h1
+{
+    font-family: "Rancho-Regular"; 
+    color: white; 
+    font-size: 50px;
+    font-weight: normal;
+    margin-left: 80px;
+}
+
+/** Page Principale **/ 
+#PagePrincipale {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-top: -10px;
+        
+}
+
+
+/** Style de la barre lattérale droite **/ 
+#BarreLatteraleDroite {
+    z-index: 1000;
+    position: fixed;
+    right: 0px;
+    width: 10%;
+    height: 100%;
+    background: #000;
+    padding-right: 2%;
+}
+
+#BarreLatteraleGauche {
+    z-index: 1000;
+    margin-left: -10px; 
+    width: 20%;
+    min-height: 650px;
+    background: #000;
+    
+    position: fixed;
+}
+
+
+.BanniereHotel {
+   position: absolute; 
+    left: 20%; 
+  /*  background: url(../images/banniereHotel.jpg) no-repeat 0px 0px; */
+    background-size: cover;
+	width: 70%;
+    min-height: 650px;
+    margin-left: -10px; 
+    margin-right: -10px; 
+  
+}
+
+
+
+/** Style des éléments du menu vertical **/ 
+.nav-enumeration {
+    position: absolute;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-enumeration li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.nav-enumeration li a {
+    display: block;
+    text-decoration: none;
+    color: #bbb;
+    font-family: "Rancho-Regular";
+    font-size: 1.4em;
+}
+
+.nav-enumeration li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+
+.nav-enumeration > .TitreMenu {
+    height: 76px;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+/****************/ 
+
+
+#ContenuPage {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+
+
+.EcritureBanniere
+{
+    position: relative; 
+    margin-top: 33%;
+    margin-left: 57%;
+}
+.EcritureBanniere h3 
+{
+    font-size: 40px; 
+    font-weight: normal; 
+    color: #fff;
+	font-family: 'Rancho-Regular';
+}
+
+.EcritureBanniere h3 span {
+    color: #fff;
+    background-color: rgba(249, 255, 247, 0.42);
+    padding: 17px;
+}
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+	display: none;
+}
+.nbs-flexisel-container {
+	position: relative;
+	max-width: 100%;
+}
+.nbs-flexisel-ul {
+	position: relative;
+	width: 9999px;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+.nbs-flexisel-inner {
+    overflow: hidden;
+    margin-left: -10px;
+    margin-right: -10px; 
+}
+.nbs-flexisel-item {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	position: relative;
+}
+ul#flexiselDemo1 li a{
+	text-decoration:none;
+	display:block;
+}
+.nbs-flexisel-item > a img {	
+	cursor: auto;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 100;
+	margin-top:0em;
+}
+.nbs-flexisel-nav-left {
+    left: 0;
+    background: url(../images/img-sprite-left-right.png) no-repeat 0px 0px;
+}
+.nbs-flexisel-nav-right {
+	right: 0px;
+	background: url(../images/img-sprite-left-right.png) no-repeat -54px 0px;
+}
+

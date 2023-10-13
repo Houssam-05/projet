@@ -1,0 +1,667 @@
+@font-face {
+    font-family: 'Rancho-Regular';
+    src:url(../polices/Rancho-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'caviar dreams';
+    src:url(../polices/CaviarDreams.ttf) format('truetype');
+}
+
+
+body
+{
+    margin: 0%; 
+    height: auto;
+    overflow-x: hidden;
+}
+
+h1
+{
+    font-family: "Rancho-Regular"; 
+    color: white; 
+    font-size: 50px;
+    font-weight: normal;
+}
+
+
+/** Page Principale **/ 
+#PagePrincipale {
+    margin-top: 0px;
+    position: relative;
+}
+
+
+/** Style de la barre lattérale droite **/ 
+#BarreLatteraleDroite {
+    z-index: 1000;
+    float: left; 
+    width: 13%; 
+    min-height: 660px; 
+    margin-left: -1px; 
+    background: #000;
+  
+   
+    
+}
+
+#BarreLatteraleGauche {
+    z-index: 1000;
+    width: 15%;
+    min-height: 660px;
+    background: #000;
+    float : left; 
+}
+
+.BanniereHotel {
+   float: left;
+    background-size: cover;
+	width: 72%;  
+    height: auto;
+}
+
+.BanniereHotel img
+{
+    min-height: 660px!important;
+}
+#SlideImages li
+{
+    width: 100%;
+    
+}
+#SlideImages img
+{
+    width: 100%;
+    height: 660px; 
+    
+}
+
+/** Style des éléments du menu vertical **/ 
+.nav-enumeration {
+    position: absolute;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-enumeration li {
+    text-indent: 10%;
+   
+}
+
+.nav-enumeration li a {
+    display: block;  /** Pour l'affichage en vertical **/ 
+    text-decoration: none; 
+    color: #bbb;
+    font-family: "Rancho-Regular";
+    font-size: 1.4em;
+}
+
+.nav-enumeration li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+
+.nav-enumeration > .TitreMenu {
+    height: 76px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center; 
+    
+}
+/****************/ 
+
+
+form 
+{
+    color: #ddd; 
+    font-family: 'Rancho-Regular';
+    font-size: 20px; 
+   
+}
+
+label
+{
+    display: block;
+	width: 80%;
+	float: left;
+    padding-bottom: 10px;
+    padding-top: 10px; 
+    margin-left: 10%; 
+}
+label span
+{
+    padding-right: 10px; 
+}
+form input 
+{
+    margin-left: 23%; 
+    font-family: cambria;
+    background: #ddd; 
+    width: 60%; 
+}
+form select
+{
+    margin-left: 23%; 
+    font-family: cambria;
+    background: #ddd; 
+    width: 60%; 
+}
+
+.envoyer
+{
+    width: 60%; 
+    margin-left: 23%;
+    border-width: 0;
+    font-family: 'Rancho-Regular'; 
+    text-align: center;
+    font-size: 25px;
+    color: white; 
+    border-radius: 5px; 
+    background-color: #ca8c08;
+    border-color: #9e6c01;
+ 
+}
+.envoyer:hover
+{
+    background-color: #9e6c01;
+    border-color: #815800;
+    box-shadow: 2px 2px 5px;
+}
+
+
+#Bienvenue 
+{
+    margin-left: 12%; 
+}
+
+#Bienvenue div 
+{
+    width: 27%;  
+    float: left; 
+    margin-right : 3%; 
+    text-align: center;  
+    font-size: 20px;  
+    font-family: "caviar dreams"; 
+}
+
+#Bienvenue div img
+{
+     border: 5px solid #fff;
+    height: 220px;
+}
+
+#Bienvenue div img:hover 
+{
+    border: 5px solid #c68700;
+}
+
+#Bienvenue div > h2
+{
+    margin-top: -1%; 
+    font-family: "Rancho-Regular";  
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center; 
+}
+
+
+#infosMeteo
+{
+    float: left; 
+    background: #eee; 
+    width: 100%; 
+    height: 400px; 
+    margin-top: 2%;
+    
+}
+
+.footer-section{
+	float: left; 
+    width: 100%; 
+	text-align:center;
+	background: #c68700; 
+    font-family: "Rancho-Regular"; 
+    color: white; 
+    font-size: 25px;
+    
+}
+.headerRooms {
+    background: url(../images/rooms-deluxe-single%20-%20Copie.jpg) no-repeat 0px -240px; 
+    background-size: cover;
+    min-height: 260px;
+}
+.headerRestaurants {
+    background: url(../images/hotel-restaurant-design.jpg) no-repeat 0px -340px; 
+    background-size: cover;
+    min-height: 260px;
+}
+
+.headerGym {
+    background: url(../images/picture_hotel-spa-arles.jpg) no-repeat 0px -340px; 
+    background-size: cover;
+    min-height: 260px;
+}
+
+#menu ul {
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ text-align:center;
+ }
+#menu li {
+ float:left;
+ width: auto; 
+ padding:0;
+ background-color:none;
+ }
+#menu li a {
+ display:block;
+ color:white;
+ text-decoration:none;
+ width: auto;
+    padding: 10px; 
+ }
+
+#menu li:hover
+{
+    background-color: rgba(249, 255, 247, 0.43);
+}
+}
+#menu li a:hover {
+ color:#FFD700;
+ }
+#menu 
+{
+    margin-left: 36%; 
+    font-family: "Rancho-Regular"; 
+    color: white; 
+    font-size: 25px; 
+}
+
+.ContenuPage .CadresDetails
+{
+    width: 90%; 
+    float: left;
+    margin-left: 4%;  
+    font-family: "caviar dreams"!important;
+    
+}
+  
+.ContenuPage .CadresDetails img
+{
+    width : 40%; 
+    height: 350px;  
+    margin: 3%; 
+    transition: width 2s ; 
+    float: left; 
+}
+.ContenuPage .CadresDetails img:hover
+{
+    width : 50%; 
+    height: 450px;  
+    margin: 3%; 
+    float: left; 
+}
+.ContenuPage .CadresDetails h4 
+{
+    margin-top: 2%;
+    margin-bottom: -2%; 
+    font-family: 'Rancho-Regular'; 
+    font-size: 40px; 
+    font-weight: normal; 
+}
+.ContenuPage .CadresDetails h3
+{
+    margin-top: 1%; 
+    font-family: "caviar dreams";
+    font-size: 16px; 
+    font-weight: normal; 
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    
+.nav-enumeration li a {
+    display: block;  /** Pour l'affichage en vertical **/ 
+    text-decoration: none; 
+    color: red;
+    font-family: "Rancho-Regular";
+    font-size: 0.8em;
+}
+    
+ #BarreLatteraleDroite {
+    z-index: 1000;
+    float: left; 
+    width: 14%; 
+    min-height: 900px; 
+    margin-left: -1px; 
+    background: #000;
+    
+}
+
+#BarreLatteraleGauche {
+    z-index: 1000;
+    width: 16%;
+    min-height: 900px;
+    background: #000;
+    float : left; 
+}
+
+.BanniereHotel {
+   float: left;
+    background-size: cover;
+	width: 70%;  
+    min-height: 900px;
+}
+
+.BanniereHotel img
+{
+    min-height: 900px;
+}
+
+
+#diapo
+    {
+        height:  900px!important; 
+    }
+    
+.nav-enumeration li {
+    text-indent: 5%;
+   
+}
+.nav-enumeration > .TitreMenu {
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    margin-left: -55%; 
+    
+    
+}
+
+.envoyer
+{
+    width: 60%; 
+    margin-left: 23%;
+    border-width: 0;
+    font-family: 'Rancho-Regular'; 
+    text-align: center;
+    font-size: 15px;
+    color: white; 
+    border-radius: 5px; 
+    background-color: #ca8c08;
+    border-color: #9e6c01;
+ 
+}
+    form 
+{
+    color: #ddd; 
+    font-family: 'Rancho-Regular';
+    font-size: 0.8em; 
+   
+}
+    
+    
+
+#Bienvenue div 
+{
+    width: 27%;  
+    float: left; 
+    margin-right : 3%; 
+    text-align: center;  
+    font-size: 14px;  
+    font-family: "caviar dreams"; 
+}
+
+#Bienvenue div img
+{
+    border: 3px solid #fff;
+    height: 110px;
+}
+
+#Bienvenue div img:hover 
+{
+    border: 5px solid #c68700;
+}
+
+#Bienvenue div > h2
+{
+    margin-top: -1%; 
+    font-family: "Rancho-Regular";  
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center; 
+}
+    #div1{
+    text-align: center; 
+    width: 100%;
+    font-family: "caviar dreams";
+    margin: auto;
+    
+}
+
+    
+}
+
+
+@media all and (max-device-width: 480px)
+{
+    
+body
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+.nav-enumeration li a {
+    display: block;  /** Pour l'affichage en vertical **/ 
+    text-decoration: none; 
+    color: mediumvioletred;
+    font-family: "Rancho-Regular";
+    font-size: 1em;
+}
+    
+ #BarreLatteraleDroite {
+    z-index: 1000;
+    float: left; 
+    width: 12%; 
+    min-height: 660px; 
+    background: #000;
+    
+}
+
+#BarreLatteraleGauche {
+    z-index: 1000;
+    width: 17%;
+    min-height: 660px;
+    background: #000;
+    float : left; 
+}
+
+.BanniereHotel {
+   float: left;
+    background-size: cover;
+	width: 71%;  
+    min-height: 660px;
+}
+
+.BanniereHotel img
+{
+    min-height: 660px;
+}
+
+    
+.nav-enumeration li {
+    text-indent: 10%;
+   
+}
+.nav-enumeration > .TitreMenu {
+    height: 40px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    margin-left: -30%; 
+    
+    
+}
+
+.envoyer
+{
+    width: 60%; 
+    margin-left: 23%;
+    border-width: 0;
+    font-family: 'Rancho-Regular'; 
+    text-align: center;
+    font-size: 15px;
+    color: white; 
+    border-radius: 5px; 
+    background-color: #ca8c08;
+    border-color: #9e6c01;
+ 
+}
+    form 
+{
+    color: #ddd; 
+    font-family: 'Rancho-Regular';
+    font-size: 1em; 
+   
+}
+    
+    
+
+#Bienvenue div 
+{
+    width: 27%;  
+    float: left; 
+    margin-right : 3%; 
+    text-align: center;  
+    font-size: 14px;  
+    font-family: "caviar dreams"; 
+}
+
+#Bienvenue div img
+{
+    border: 3px solid #fff;
+    height: 110px;
+}
+
+#Bienvenue div img:hover 
+{
+    border: 5px solid #c68700;
+}
+
+#Bienvenue div > h2
+{
+    margin-top: -1%; 
+    font-family: "Rancho-Regular";  
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center; 
+}
+    #div1{
+    text-align: center; 
+    width: 100%;
+    font-family: "caviar dreams";
+    margin: auto;
+    
+}
+    
+.ContenuPage .CadresDetails h3
+{
+    margin-top: 1%; 
+    font-family: "caviar dreams";
+    font-size: 12px; 
+    font-weight: normal; 
+    text-align: justify;
+}
+    
+    .ContenuPage .CadresDetails img
+{
+    width : 50%; 
+    height: 350px;  
+    margin: 3%; 
+    transition: width 2s ; 
+    float: left; 
+}
+.ContenuPage .CadresDetails img:hover
+{
+    width : 60%; 
+    height: 400px;  
+    margin: 3%; 
+    float: left; 
+}
+
+#menu 
+{
+    margin-left: 30%; 
+    font-family: "Rancho-Regular"; 
+    color: white; 
+    font-size: 25px; 
+}
+
+    
+}
+.ContenuPage .CadresDetails h3 span
+{
+    font-family: 'Rancho-Regular';
+    font-size: 20px; 
+}
+
+.ContenuPage .CadresDetails h3 span span
+{
+    margin-left: 2%;
+}
+
+#div1{
+    text-align: center; 
+    width: 50%;
+    font-family: "caviar dreams";
+    margin: auto; 
+    float: left;
+    
+}
+h4 {
+    font-family: "Rancho-Regular";  
+    margin: 0px; 
+    font-size : 30px; 
+}
+
+.alerte
+{
+    margin: 5%;
+    padding: 2%; 
+}
+.alerte p 
+{
+    font-family: "Rancho-Regular"; 
+    font-size: 24px; 
+    text-align: center; 
+    color: orangered;
+}
+
+
+#SlideImages{padding:0;margin:0;list-style:none;outline:none;}
+#fssPlayPause{
+    position:absolute;
+    top:600px;
+    right:210px;
+    background:url(../white.png) repeat;
+    font-family: "Rancho-Regular"; 
+    font-size: 24px; 
+    color: #000;
+    padding: 1% 1% 1% 1% ;
+    text-decoration: none;
+}
+
+p{text-align:center;}
+#fssList{
+    list-style:none; 
+    margin:auto;
+    padding:5px 0 0 45%;
+    font-family: "Rancho-Regular"; 
+    font-size: 17px; 
+}
+#fssList li{
+    display:inline;
+    padding-right:10px;
+}
